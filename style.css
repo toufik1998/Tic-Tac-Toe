@@ -1,0 +1,43 @@
+/* Add appropriate styles for the 20x20 grid */
+.game {
+    width: auto; /* Adjust width as needed */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+}
+
+.title {
+    background: #f25;
+    padding: 10px 0;
+    margin: 5px auto;
+    width: 50%;
+
+}
+
+span {
+    color: #fa0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, auto); /* Create 20 columns */
+    grid-gap: 2px; /* Adjust gap as needed */
+    justify-content: center;
+}
+
+.square {
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    background: #f25;
+    font-size: 18px; /* Adjust font size as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    background: #000;
+    cursor: pointer;
+}
